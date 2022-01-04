@@ -1,0 +1,28 @@
+{
+  "name": "@oc-soft/wp-iris-alpha",
+  "version": "1.0.0",
+  "description": "wordpress color picker extension to be able to get color with alpha",
+  "main": "dist/wp-iris-alpha.js",
+  "scripts": {
+    "build-image-resource": "cd image-resource-js && npm run build",
+    "build": "rollup -c rollup.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wordpress",
+    "color-picker",
+    "color",
+    "picker",
+    "alpha",
+    "transparency",
+    "hex",
+    "html",
+    "css"
+  ],
+  "author": "Toshiyuki Ogawa",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-alias": "^3.1.9",
+    "rollup": "^2.62.0"
+  }
+}
