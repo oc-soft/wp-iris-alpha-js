@@ -1,0 +1,3 @@
+[submodule "image-resource-js"]
+	path = image-resource-js
+	url = ../image-resource-js.git
